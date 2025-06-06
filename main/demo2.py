@@ -7,7 +7,7 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtGui import QFont, QTextCharFormat, QTextCursor, QColor
 from PyQt5.QtCore import Qt, QTimer
-
+from PyQt5.QtGui import QIcon
 import sys
 import os
 import shutil
@@ -128,13 +128,14 @@ class TodoItem(QWidget):
 class MemoApp(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("📝 Reminder")
+        self.setWindowTitle(" Reminder")
         self.resize(600, 600)
+        self.setWindowIcon(QIcon("icon.ico"))
         self.setStyleSheet("QWidget { background-color: #f5f7fa; }")
         self.setWindowOpacity(0.95)
         self.setWindowFlag(Qt.WindowStaysOnTopHint, True)
         self.layout = QVBoxLayout(self)
-        self.layout.setContentsMargins(15, 15, 15, 15)
+        self.layout.setContentsMargins(2, 10, 2, 2)
         self.layout.setSpacing(10)
 
         self.scroll = QScrollArea()
@@ -152,11 +153,19 @@ class MemoApp(QWidget):
         self.layout.addWidget(self.scroll)
 
         self.add_button = QPushButton("➕ 添加任务")
+        self.add_button.setFont(QFont("微软雅黑", 12))  # 字号可调
         self.add_button.setStyleSheet("QPushButton { font-size: 24px; padding: 6px; }")
         self.add_button.clicked.connect(self.add_todo_item)
         self.layout.addWidget(self.add_button)
 
         self.load_memos()
+
+        self.setStyleSheet("""
+            QWidget {
+                background-color: #f5f7fa;  /* 和桌面颜色融合 */
+                border: none;
+            }
+        """)
 
     def add_todo_item(self, text="", done=False):
         item = TodoItem(save_callback=self.save_memos, delete_callback=self.delete_todo_item)

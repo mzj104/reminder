@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e2b14fb-9fff-42eb-a8eb-637ab98a896c" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/reminder.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/demo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/icon.ico" afterDir="false" />
+    <list default="true" id="8e2b14fb-9fff-42eb-a8eb-637ab98a896c" name="更改" comment="fix">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/build/demo2/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/main/build/demo2/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/build/demo2/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/main/build/demo2/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/build/demo2/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/main/build/demo2/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/build/demo2/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/main/build/demo2/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/build/demo2/demo2.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/main/build/demo2/demo2.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/demo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/dist/demo2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/main/dist/demo2.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mzj104"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mzj104/reminder.git",
+    "accountId": "52323812-ab80-48b6-b881-cc937b308186"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -48,7 +60,7 @@
     "Python.demo2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/10165/PycharmProjects/reminder/main",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
@@ -73,6 +85,19 @@
       <option name="presentableId" value="Default" />
       <updated>1749179127089</updated>
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <option name="closed" value="true" />
+      <created>1749202287309</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749202287309</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
